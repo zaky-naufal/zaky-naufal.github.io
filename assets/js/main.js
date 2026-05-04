@@ -228,5 +228,11 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+  
+  AOS.init();
+window.addEventListener('load', function() {
+    AOS.refresh();
+});
+
 
 })();
